@@ -100,6 +100,7 @@ function changeSeason(ev) {
     document.querySelectorAll('button').forEach(btn => {
         btn.classList.remove('active-button');
     });
+    // Slicing the first part of the episode code to compare it to the season that was clicked
     let filteredEpisodes = allEps.filter(ep => ep.episode.slice(0, 3) === ev.currentTarget.getAttribute('data-season'));
     ev.currentTarget.classList.add('active-button');
     fillEpisodeGrid(filteredEpisodes);

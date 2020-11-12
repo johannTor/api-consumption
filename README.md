@@ -18,6 +18,6 @@ When an episode is clicked we access the episode object from an episode array we
 
 The fetch calls take some time to process and that's where the async and await keywords show their power. It's a topic that deserves it's own focus but in this project I created a few asynchronous functions. For example when the app starts up, we want to display all the episodes but we can't do that unless we use the await keyword before the async function. That makes sure the episode data is recieved before trying to display them.
 
-In the end I added a function that generates buttons that you can filter the episode list by seasons. They are dynamically created from the episode list data so it should work if there are more seasons added. Again I only had a string to work with in the form 'S02E01' so there was some extra string manipulation involved with that.
+Lastly I added a function that generates buttons that you can filter the episode list by seasons. They are dynamically created from the episode list data so it should work if there are more seasons added. Again I only had a string to work with in the form 'S02E01' so there was some extra string manipulation involved with that.
 
 In the end I found it fun to experiment using APIs and there's definitely a lot more to learn about and try out.
