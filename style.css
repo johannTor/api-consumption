@@ -102,8 +102,9 @@ h5 {
 }
 
 .character-grid {
-    width: 90%;
+    width: 100%;
     margin: 1rem auto;
+    padding-right: 2rem;
     display: grid;
     gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));

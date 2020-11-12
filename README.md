@@ -1,5 +1,7 @@
 # js-api consumption
 
+Live version: http://dynamic-music.surge.sh/
+
 In this assignment we focused on learning about interacting with APIs available in the world.
 
 In my little project I decided to work with the Rick and Morty API - https://rickandmortyapi.com/documentation - that I spotted in a list of public APIs - https://github.com/public-apis/public-apis - and made an app that listed all of the episodes available with the option to see more details about each one.
